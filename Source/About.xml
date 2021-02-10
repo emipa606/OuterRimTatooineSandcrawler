@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>[1.1] Outer Rim - Tatooine Sandcrawler</name>
+  <author>FantasyFan</author>
+  <supportedVersions>
+    <li>1.1</li>
+  </supportedVersions>
+  <packageId>FantasyFan.OuterRim.TatooineSandcrawler</packageId>
+  <description>
+	Sandcrawler addon for my Tatooine Races.
+	</description>
+</ModMetaData>

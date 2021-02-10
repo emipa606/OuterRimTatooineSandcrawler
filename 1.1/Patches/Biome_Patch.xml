@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!--Vanilla-->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName = "BorealForest"]/allowedPackAnimals</xpath>
+    <value>
+      <li>Sandcrawler</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName = "Tundra"]/allowedPackAnimals</xpath>
+    <value>
+      <li>Sandcrawler</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName = "ColdBog"]/allowedPackAnimals</xpath>
+    <value>
+      <li>Sandcrawler</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName = "TemperateForest"]/allowedPackAnimals</xpath>
+    <value>
+      <li>Sandcrawler</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName = "TemperateSwamp"]/allowedPackAnimals</xpath>
+    <value>
+      <li>Sandcrawler</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName = "TropicalRainforest"]/allowedPackAnimals</xpath>
+    <value>
+      <li>Sandcrawler</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName = "TropicalSwamp"]/allowedPackAnimals</xpath>
+    <value>
+      <li>Sandcrawler</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName = "AridShrubland"]/allowedPackAnimals</xpath>
+    <value>
+      <li>Sandcrawler</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName = "Desert"]/allowedPackAnimals</xpath>
+    <value>
+      <li>Sandcrawler</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BiomeDef[defName = "ExtremeDesert"]/allowedPackAnimals</xpath>
+    <value>
+      <li>Sandcrawler</li>
+    </value>
+  </Operation>
+  <!--Star Wars Biomes - Replace-->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>[1.1] Star Wars - Biomes Replace</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/BiomeDef[defName = "Felucia"]/allowedPackAnimals</xpath>
+      <value>
+        <li>Sandcrawler</li>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>[1.1] Star Wars - Biomes Replace</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/BiomeDef[defName = "Scarif"]/allowedPackAnimals</xpath>
+      <value>
+        <li>Sandcrawler</li>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>[1.1] Star Wars - Biomes Replace</li>
+    </mods>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/BiomeDef[defName = "YavinIV"]/allowedPackAnimals</xpath>
+      <value>
+        <li>Sandcrawler</li>
+      </value>
+    </match>
+  </Operation>
+</Patch>
