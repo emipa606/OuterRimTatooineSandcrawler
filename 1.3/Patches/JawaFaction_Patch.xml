@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/FactionDef[defName = "O21_NPC_Jawa_Faction"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>/Defs/FactionDef[defName = "O21_NPC_Jawa_Faction"]/pawnGroupMakers</xpath>
+      <value>
+        <pawnGroupMakers>
+          <li>
+            <!-- Normal fights, standard mix -->
+            <kindDef>Combat</kindDef>
+            <options>
+              <O21_NPC_JawaTrader>10</O21_NPC_JawaTrader>
+              <O21_NPC_JawaScavenger>10</O21_NPC_JawaScavenger>
+              <O21_NPC_JawaMechanic>10</O21_NPC_JawaMechanic>
+              <O21_NPC_JawaShaman>5</O21_NPC_JawaShaman>
+            </options>
+          </li>
+          <li>
+            <kindDef>Peaceful</kindDef>
+            <options>
+              <O21_NPC_JawaTrader>20</O21_NPC_JawaTrader>
+              <O21_NPC_JawaScavenger>10</O21_NPC_JawaScavenger>
+              <O21_NPC_JawaMechanic>10</O21_NPC_JawaMechanic>
+              <O21_NPC_JawaShaman>5</O21_NPC_JawaShaman>
+            </options>
+          </li>
+          <li>
+            <kindDef>Trader</kindDef>
+            <traders>
+              <O21_NPC_JawaChief>1</O21_NPC_JawaChief>
+            </traders>
+            <carriers>
+              <Sandcrawler>5</Sandcrawler>
+            </carriers>
+            <guards>
+              <O21_NPC_JawaTrader>10</O21_NPC_JawaTrader>
+              <O21_NPC_JawaScavenger>3</O21_NPC_JawaScavenger>
+            </guards>
+          </li>
+          <li>
+            <kindDef>Settlement</kindDef>
+            <options>
+              <O21_NPC_JawaTrader>10</O21_NPC_JawaTrader>
+              <O21_NPC_JawaVillager>10</O21_NPC_JawaVillager>
+              <O21_NPC_JawaMechanic>10</O21_NPC_JawaMechanic>
+              <O21_NPC_JawaShaman>10</O21_NPC_JawaShaman>
+            </options>
+          </li>
+        </pawnGroupMakers>
+      </value>
+    </match>
+  </Operation>
+</Patch>

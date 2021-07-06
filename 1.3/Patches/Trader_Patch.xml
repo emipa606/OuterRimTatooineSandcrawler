@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/FactionDef[defName = "O21_NPC_Jawa_Faction"]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/TraderKindDef[defName = "Base_Jawa"]/stockGenerators</xpath>
+      <value>
+        <li Class="StockGenerator_Animals">
+          <tradeTagsSell>
+            <li>AnimalSandcrawler</li>
+          </tradeTagsSell>
+          <kindCountRange>1~1</kindCountRange>
+          <countRange>-3~1</countRange>
+        </li>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>/Defs/TraderKindDef[defName = "Base_Outlander_Standard"]/stockGenerators</xpath>
+      <value>
+        <li Class="StockGenerator_Animals">
+          <tradeTagsSell>
+            <li>AnimalSandcrawler</li>
+          </tradeTagsSell>
+          <kindCountRange>1~1</kindCountRange>
+          <countRange>-3~1</countRange>
+        </li>
+      </value>
+    </nomatch>
+  </Operation>
+</Patch>
