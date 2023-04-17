@@ -40,3 +40,4 @@ Other Star Wars Mods:
 
 
 
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2390808201]Last updated 2023-04-17

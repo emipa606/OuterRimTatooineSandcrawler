@@ -1,5 +1,8 @@
 # Changelog for OuterRimTatooineSandcrawler
 
+1.4.2 - Sandcrawlers should no longer be spawning as manhunters
+
+
 1.4.1 - Mod updated for 1.4 and passed autotests
 
 
