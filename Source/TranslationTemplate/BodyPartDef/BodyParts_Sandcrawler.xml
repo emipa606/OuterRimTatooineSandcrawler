@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: computor core -->
+  <ComputorCore.label>computor core</ComputorCore.label>
+  <!-- EN: front hatch -->
+  <FrontHatch.label>front hatch</FrontHatch.label>
+  <!-- EN: front window -->
+  <FrontWindow.label>front window</FrontWindow.label>
+  <!-- EN: hull -->
+  <Hull.label>hull</Hull.label>
+  <!-- EN: magnetic suction tube -->
+  <MagneticSuctionTube.label>magnetic suction tube</MagneticSuctionTube.label>
+  <!-- EN: chemical analyzer -->
+  <SmellSensor.label>chemical analyzer</SmellSensor.label>
+  <!-- EN: treaded wheel -->
+  <TreadedWheel.label>treaded wheel</TreadedWheel.label>
+</LanguageData>

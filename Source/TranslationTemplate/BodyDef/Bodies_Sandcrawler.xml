@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: sandcrawler -->
+  <MechanicalSandcrawler.label>sandcrawler</MechanicalSandcrawler.label>
+  <!-- EN: left hearing sensor -->
+  <MechanicalSandcrawler.corePart.parts.FrontWindow.parts.left_hearing_sensor.customLabel>left hearing sensor</MechanicalSandcrawler.corePart.parts.FrontWindow.parts.left_hearing_sensor.customLabel>
+  <!-- EN: right hearing sensor -->
+  <MechanicalSandcrawler.corePart.parts.FrontWindow.parts.right_hearing_sensor.customLabel>right hearing sensor</MechanicalSandcrawler.corePart.parts.FrontWindow.parts.right_hearing_sensor.customLabel>
+</LanguageData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: sandcrawler -->
+  <Sandcrawler.label>sandcrawler</Sandcrawler.label>
+  <!-- EN: Sandcrawlers were huge mobile fortresses which could be seen on the deserts of Tatooine and Arvala-7, used by the Jawas as their transport and shelter. -->
+  <Sandcrawler.description>Sandcrawlers were huge mobile fortresses which could be seen on the deserts of Tatooine and Arvala-7, used by the Jawas as their transport and shelter.</Sandcrawler.description>
+  <!-- EN: head -->
+  <Sandcrawler.tools.head.label>head</Sandcrawler.tools.head.label>
+</LanguageData>
