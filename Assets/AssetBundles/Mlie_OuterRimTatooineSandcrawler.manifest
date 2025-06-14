@@ -1,0 +1,31 @@
+ManifestFileVersion: 0
+CRC: 1376925372
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a90cf331f86655e7b600047ae4e4685f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: a90cf331f86655e7b600047ae4e4685f
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.OuterRimTatooineSandcrawler/Textures/Sandcrawler_south.png
+- Assets/Data/Mlie.OuterRimTatooineSandcrawler/Textures/SandcrawlerNew/SandcrawlerNew_south.png
+- Assets/Data/Mlie.OuterRimTatooineSandcrawler/Textures/SandcrawlerNew/SandcrawlerNewPack_east.png
+- Assets/Data/Mlie.OuterRimTatooineSandcrawler/Textures/SandcrawlerNew/SandcrawlerNew_east.png
+- Assets/Data/Mlie.OuterRimTatooineSandcrawler/Textures/SandcrawlerNew/SandcrawlerNew_north.png
+- Assets/Data/Mlie.OuterRimTatooineSandcrawler/Textures/SandcrawlerNew/SandcrawlerNewPack_south.png
+- Assets/Data/Mlie.OuterRimTatooineSandcrawler/Textures/SandcrawlerPack_east.png
+- Assets/Data/Mlie.OuterRimTatooineSandcrawler/Textures/Sandcrawler_east.png
+- Assets/Data/Mlie.OuterRimTatooineSandcrawler/Textures/SandcrawlerNew/SandcrawlerNewPack_north.png
+- Assets/Data/Mlie.OuterRimTatooineSandcrawler/Textures/SandcrawlerPack_south.png
+- Assets/Data/Mlie.OuterRimTatooineSandcrawler/Textures/Sandcrawler_north.png
+- Assets/Data/Mlie.OuterRimTatooineSandcrawler/Textures/SandcrawlerPack_north.png
+Dependencies: []
